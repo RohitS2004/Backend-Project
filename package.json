@@ -5,7 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
   "keywords": [
     "backend",
@@ -15,6 +15,7 @@
   "author": "Rohit Saini",
   "license": "ISC",
   "devDependencies": {
+    "@types/express": "^4.17.21",
     "nodemon": "^3.1.7",
     "prettier": "^3.3.3"
   },
