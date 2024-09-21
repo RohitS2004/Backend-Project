@@ -1,0 +1,12 @@
+# Environment variables
+*.env
+.env.*
+
+# VS code settings
+/.vscode
+
+# Node modules
+./node_modules
+
+# Distribution
+./dist
