@@ -1,11 +1,16 @@
 // require('dotenv').config({path: "./env"});
 import dotenv from "dotenv"
-import connectDB from "./db/index.js"
+import connectDB from "./db/index.js" // sometimes it is necessary to add the extension of the file which you want to import otherwise the import will not work
 
-connectDB();
-dotenv.config({
-    path: "./env"
-})
+connectDB(); // connecting to the database
+
+dotenv.config(
+    {
+        path: "./env"
+    }
+)
+
+// TODO: What is the use of dotenv package
 
 
 
