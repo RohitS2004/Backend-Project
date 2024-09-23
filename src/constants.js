@@ -1,1 +1,1 @@
-export const DB_NAME = "verto play"
+export const DB_NAME = "vertoplay"

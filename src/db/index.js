@@ -9,7 +9,7 @@ const connectDB = async () => {
     }
     catch (error) {
         console.log(`MONGODB CONNECT ERROR: ${error.message}`);
-        process.exit(1)
+        process.exit(1) // process is the current application which is running.
     }
 }
 
